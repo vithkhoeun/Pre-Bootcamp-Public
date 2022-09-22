@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 80%;
+    margin: 0px auto;
+    border: 2px solid red;
+}
+h1 {
+    color: aqua;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.sub-header {
+    background-color: aqua;
+    color: red;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+#bad-games {
+    background-color: red;
+    color: lime;
+}
+.games {
+    border: 2px solid lightblue;
+    display: inline-block;
+    width: 400px;
+}
+.games img {
+    border: 2px solid pink;
+    padding: 20px;
+    width: 150px;
+}

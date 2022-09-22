@@ -1,0 +1,14 @@
+h1 {
+  color: white;
+  background-color: black;
+}
+h2 {
+    color: white;
+    background-color: purple;
+    text-align: center;
+}
+h3{
+    color: gray;
+    background-color: lightgray;
+    text-align: right;
+}

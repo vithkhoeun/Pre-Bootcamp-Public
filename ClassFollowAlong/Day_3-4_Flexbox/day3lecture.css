@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    border: 2px solid red;
+    margin: 0 auto;
+    /* flex wrap will stack if you make screen smaller */
+    flex-wrap: wrap;
+}
+.left, .right {
+    border: 2px solid green;
+    text-align: center;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    /* flex-start, flex end, center, space between, space around, space evenly */
+}
+.left {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.side-content {
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
+.right {
+    width: 700px;
+}
+nav {
+    display: flex;
+    border: 2px solid orange;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}

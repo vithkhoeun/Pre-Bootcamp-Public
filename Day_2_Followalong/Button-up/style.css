@@ -1,0 +1,29 @@
+.first {
+    border: 2px solid #119B9D;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 20px;
+    color: #119B9D;
+    background-color: lightgray;
+}
+.second {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00D1B2;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+.new {
+    display: inline-block;
+    margin: 50px;
+}
+.third {
+    text-align: center;
+    color: white;
+    background-color: #2B78E4;
+    font-size: 30px;
+    padding: 10px 50px;
+    box-shadow: 10px 10px black;
+}

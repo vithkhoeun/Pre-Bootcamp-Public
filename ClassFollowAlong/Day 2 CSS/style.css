@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color:red;
+    background-color: blue;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    background-color: cyan;
+    color:red;
+    padding: 20px;
+    
+}
+.subheadder {
+    background-color: orange;
+    color: aquamarine;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+#yonce {
+    font-size: 50px;
+    color: blue;
+    background-color: brown;
+}
+.unique {
+    font-size: 30px;
+}
+<!-- call the cslass, space, img to change image -->
+.size img{
+    width: 200px;
+}
+#container {
+    color: red;
+    width: 1270px;
+    margin: 0px auto;
+    border: 2px solid red;
+}
+.upcoming img{
+    width: 200px;
+    border: 200px solid blue;
+    display: inline-block;
+}
+

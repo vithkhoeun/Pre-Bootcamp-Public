@@ -1,0 +1,9 @@
+var count = 1;
+var countElement = document.querySelector("#count")
+
+console.log
+function add1() {
+    count++;
+    countElement.innerText = count + " Like(s)";
+    console.log(count);
+}

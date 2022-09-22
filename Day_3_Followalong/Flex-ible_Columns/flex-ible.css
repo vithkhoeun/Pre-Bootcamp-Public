@@ -1,0 +1,26 @@
+.container {
+    background: orange;
+    width: 800px;
+    display: flex;
+    border: 2px solid blue;
+    color: white;
+    text-align: center;
+    height: 500px;
+}
+.row {
+    display: flex;
+    flex: 1;
+    border: 2px solid blue;
+}
+.col {
+    flex: 1;
+    border: 2px solid blue;
+}
+.col-2 {
+    flex: 2;
+    border: 2px solid blue;
+}
+.col-3 {
+    flex: 3;
+    border: 2px solid blue;
+}

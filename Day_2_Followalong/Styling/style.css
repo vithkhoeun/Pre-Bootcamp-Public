@@ -1,0 +1,25 @@
+.container {
+    margin: 0px 25px 0px 25px;
+}
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+span {
+    color: aqua;
+}
+h2 {
+    color: white;
+    background-color: purple;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+h3 {
+    background-color: skyblue;
+    text-align: end;
+    font-size: 25px;
+    padding: 10px;
+}
